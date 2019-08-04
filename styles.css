@@ -1,0 +1,78 @@
+body {
+  background: lavender;
+}
+h1,h3{
+  color:blue;
+}
+  .navbar li {
+     display: d-block;
+     padding: 10px;
+     margin-right: 0px;
+     margin-left: 0px;
+     cursor: pointer;
+   }
+.nav class{
+ /*
+ color: rgb(81, 255, 0);
+  #text-decoration-color: blue;
+  */
+}
+@media (max-width: 480px) {
+  .navbar li {
+    padding: 10px;
+    color:red;
+  }
+  .navbar ul {
+    visibility: hidden;
+  }
+  #nav-select {
+    visibility: visible;
+  }
+}
+  .navbar{
+     padding:0px;
+     margin-right: 0px;
+     margin-left: 0px;
+     margin-top: 0px;
+     padding: 25px;
+     background: rgb(2, 53, 49);
+     max-height: 57px;
+     font-size: 15px;
+ }
+ .box{
+  padding: 10px;
+  background: white;
+  margin-top:50px;
+  margin-left:40px;
+  margin-right:10px;
+  margin-bottom:20px;
+  align-content: center;
+ 
+  
+  
+}
+.box2{
+ / padding: 10px;/
+  background:pink;
+  margin-top:50px;
+  margin-left:100px;
+  margin-right:10px;
+  margin-bottom:20px;
+  align-content: center;
+}
+.nav-link{
+  color:blue;
+  font: size 10;
+}
+.navbar-brand {
+  color:red;
+}
+.navigation .navbar-brand{
+  color: white;
+  margin-left: 30px;
+  padding: inherit;
+  font-weight: bold;
+  background-color: #0BADA6;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
